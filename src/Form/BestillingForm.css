@@ -1,0 +1,47 @@
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+.prisBesked {
+    font-size: 0.5em;
+}
+
+/* Add the new CSS rules here */
+
+.bekræft-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #646cff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bekræft-button:disabled {
+    background-color: #646cff28;
+    cursor: not-allowed;
+}
